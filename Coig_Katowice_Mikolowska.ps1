@@ -1,5 +1,5 @@
 ﻿Clear-Host
-Write-Host -ForegroundColor DarkGray  "COIG KATOWICE MIKOŁOWSKA"
+Write-Host -ForegroundColor DarkGray  "COIG KATOWICE MIKOLOWSKA"
 
 $Credentials = Get-StoredCredential -Target win.coig.com
 $Username = $Credentials.UserName
