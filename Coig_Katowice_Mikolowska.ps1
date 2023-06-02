@@ -1,5 +1,5 @@
 ﻿Clear-Host
-Write-Host -ForegroundColor DarkGray  "COIG KATOWICE MIKOLOWSKA"
+Write-Host -ForegroundColor DarkGray  "COIG KATOWICE MIKOŁOWSKA"
 
 $Credentials = Get-StoredCredential -Target win.coig.com
 $Username = $Credentials.UserName
@@ -31,7 +31,7 @@ foreach ($_ in $path ) {
 }
 
 
-############ choise OU ##############L
+############ Choise OU ##############L
 
 $i=0
 do { $i++
